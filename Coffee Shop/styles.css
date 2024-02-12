@@ -1,0 +1,35 @@
+
+header{
+    background-color: black;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between
+}
+ul{
+    list-style-type: none;
+    text-align: center;
+    
+    
+}
+li{
+    float: left;
+    padding: 14px 8px 8px 8px;
+}
+
+li a{
+    padding: 8px;
+    background-color: black;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+body,html{
+    height: 100%;
+}
+
+.bg{
+    background-image: url("coffee.jpg");
+    background-repeat: no-repeat;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+}
